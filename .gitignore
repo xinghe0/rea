@@ -82,3 +82,6 @@ website/.i18n-*/
 tools/game-sec/__pycache__/
 tools/game-sec/tests/__pycache__/
 .rea-mobile-cases/
+
+# Local caller-supplied provider binaries
+.rea-tools/
