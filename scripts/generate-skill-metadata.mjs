@@ -37,7 +37,11 @@ const generated = addSkillManifestToolCount(
   FULL_CATALOG_IDENTITY.counts.mcp_tools,
 );
 if (!generated.ok) throw generated.error;
-const source = generated.value.replaceAll(latestSpecifier, pinnedSpecifier);
+const source =
+  generated.value.replaceAll(latestSpecifier, pinnedSpecifier) +
+  "\n## Internal mobile game workflow\n\nFor authorized Android game assessments, read [game security assessment](references/game-security/SKILL.md). It documents the fork-specific CLI/MCP workflow and its coverage limits.\n";
+const mobileRoot = join(root, "internal/skills/game-security-assessment");
+const mobilePaths = await filePaths(mobileRoot);
 const paths = await filePaths(sourceRoot);
 // Rebuild this owned output directory so removed references cannot survive a build.
 if (!check) await rm(outputRoot, { recursive: true, force: true });
@@ -57,9 +61,28 @@ for (const relativePath of paths) {
     generateCommand: "npm run docs:generate",
   });
 }
+for (const relativePath of mobilePaths) {
+  const path = join(outputRoot, "references/game-security", relativePath);
+  if (!check) await mkdir(dirname(path), { recursive: true });
+  await ensureGeneratedFile({
+    path,
+    source: (await readFile(join(mobileRoot, relativePath), "utf8")).replaceAll(
+      "\r\n",
+      "\n",
+    ),
+    check,
+    generateCommand: "npm run artifacts:skills",
+  });
+}
 if (
   check &&
-  JSON.stringify(await filePaths(outputRoot)) !== JSON.stringify(paths)
+  JSON.stringify(await filePaths(outputRoot)) !==
+    JSON.stringify(
+      [
+        ...paths,
+        ...mobilePaths.map((path) => `references/game-security/${path}`),
+      ].sort(),
+    )
 )
   throw new Error(
     "Generated skill file inventory drifted; run npm run docs:generate",

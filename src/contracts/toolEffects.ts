@@ -52,6 +52,46 @@ const browserEvidence = effects({
 
 /** Explicit effect audit for every public tool. */
 export const TOOL_EFFECTS: Readonly<Record<string, ToolEffects>> = {
+  convert_game_resources: effects({
+    mutatesSession: true,
+    writesFilesystem: true,
+    launchesProcess: true,
+    idempotent: false,
+  }),
+  inspect_game_case: evidence,
+  report_game_case: effects({
+    mutatesSession: true,
+    writesFilesystem: true,
+    idempotent: false,
+  }),
+  decode_game_protocol: evidence,
+  assess_mobile_game: effects({
+    idempotent: false,
+    mutatesSession: true,
+    writesFilesystem: true,
+    launchesProcess: true,
+  }),
+  control_scrcpy_device: effects({
+    mutatesSession: true,
+    mutatesTarget: true,
+    mutatesDevice: true,
+    changesUiState: true,
+    launchesProcess: true,
+    accessesNetwork: true,
+    executesForeignCode: true,
+    mayDiscardData: true,
+    idempotent: false,
+  }),
+  observe_scrcpy_device: effects({
+    mutatesSession: true,
+    launchesProcess: true,
+    accessesNetwork: true,
+  }),
+  inspect_scrcpy_client: effects({
+    mutatesSession: true,
+    launchesProcess: true,
+    accessesNetwork: true,
+  }),
   inspect_analysis_settings: effects(),
   update_analysis_settings: effects({ mutatesSession: true }),
   list_cutter_sessions: effects({ accessesNetwork: true }),

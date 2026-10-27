@@ -2,7 +2,7 @@ REA npm dependency inventory
 Prepared from the root package-lock.json; refresh this inventory when locked dependencies change.
 License identifiers are upstream lockfile declarations, not a legal assessment.
 Runtime includes transitive and optional platform packages; development includes build, test and website tooling.
-Locked package entries: 963; runtime: 180.
+Locked package entries: 1030; runtime: 258.
 Full runtime copyright/license/NOTICE texts: npm-runtime-notices.txt.
 
 @algolia/abtesting@1.25.0 | development | MIT
@@ -380,6 +380,11 @@ unist-util-visit-parents@3.1.1 | development | MIT
   Package: https://www.npmjs.com/package/unist-util-visit-parents/v/3.1.1
   Archive: https://registry.npmjs.org/unist-util-visit-parents/-/unist-util-visit-parents-3.1.1.tgz
   Integrity: sha512-1KROIZWo6bcMrZEwiH2UrXDyalAa0uqzWCxCJj6lPOvTve2WkfgCytoDTPaMnodXh1WrXOq0haVYHj99ynJlsg==
+@derhuerst/http-basic@8.2.4 | runtime, optional | MIT
+  Lockfile path: node_modules/@derhuerst/http-basic
+  Package: https://www.npmjs.com/package/@derhuerst/http-basic/v/8.2.4
+  Archive: https://registry.npmjs.org/@derhuerst/http-basic/-/http-basic-8.2.4.tgz
+  Integrity: sha512-F9rL9k9Xjf5blCz8HsJRO4diy111cayL2vkY2XE4r4t3n0yPXVYy3KD3nJ1qbrSn9743UWSXH4IwuCa/HWlGFw==
 @docsearch/css@3.8.2 | development | MIT
   Lockfile path: node_modules/@docsearch/css
   Package: https://www.npmjs.com/package/@docsearch/css/v/3.8.2
@@ -560,6 +565,11 @@ commander@13.1.0 | runtime | MIT
   Package: https://www.npmjs.com/package/@google-automations/git-file-utils/v/3.2.1
   Archive: https://registry.npmjs.org/@google-automations/git-file-utils/-/git-file-utils-3.2.1.tgz
   Integrity: sha512-LYOjAnGu/xtEkYYh6W3/1RmeK9HB/fV+xMe7nHc+WiDYrnxAJWBfcyUucoJtYS8XAhVUzNWrQvYDPRbxe67DNQ==
+@hono/node-server@2.1.5 | runtime | MIT
+  Lockfile path: node_modules/@hono/node-server
+  Package: https://www.npmjs.com/package/@hono/node-server/v/2.1.5
+  Archive: https://registry.npmjs.org/@hono/node-server/-/node-server-2.1.5.tgz
+  Integrity: sha512-MgP/I06GdvsilDspMk/qmRzpk8LOUStP6jFAbSRi40W09DhoyUn+Mj7eyKICPqeYKybOjVFLVIAQzvu1bfIa7Q==
 @iarna/toml@3.0.0 | development | ISC
   Lockfile path: node_modules/@iarna/toml
   Package: https://www.npmjs.com/package/@iarna/toml/v/3.0.0
@@ -730,6 +740,11 @@ commander@13.1.0 | runtime | MIT
   Package: https://www.npmjs.com/package/@modelcontextprotocol/core/v/2.3.1
   Archive: https://registry.npmjs.org/@modelcontextprotocol/core/-/core-2.3.1.tgz
   Integrity: sha512-laVmIhPGpWi7rG9q+0UigblRN0Hws/Yjlb6qLFtVqryXVLkc4h+yN8z731POD2LnAGQlFe7/tXhUm7Bi0YB91g==
+@modelcontextprotocol/sdk@1.32.2 | runtime | MIT
+  Lockfile path: node_modules/@modelcontextprotocol/sdk
+  Package: https://www.npmjs.com/package/@modelcontextprotocol/sdk/v/1.32.2
+  Archive: https://registry.npmjs.org/@modelcontextprotocol/sdk/-/sdk-1.32.2.tgz
+  Integrity: sha512-SWsVtH/0vULSQStoZ6xxH2K09Li8fXYTMC64ZeogCdpZ3XSi1eCPOByV1OpuJxuI3OcmHhosDWYyii07tpPsLw==
 @modelcontextprotocol/server@2.3.1 | runtime | Apache-2.0
   Lockfile path: node_modules/@modelcontextprotocol/server
   Package: https://www.npmjs.com/package/@modelcontextprotocol/server/v/2.3.1
@@ -1985,6 +2000,11 @@ abort-controller@3.0.0 | runtime | MIT
   Package: https://www.npmjs.com/package/abort-controller/v/3.0.0
   Archive: https://registry.npmjs.org/abort-controller/-/abort-controller-3.0.0.tgz
   Integrity: sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==
+accepts@2.0.0 | runtime | MIT
+  Lockfile path: node_modules/accepts
+  Package: https://www.npmjs.com/package/accepts/v/2.0.0
+  Archive: https://registry.npmjs.org/accepts/-/accepts-2.0.0.tgz
+  Integrity: sha512-5cvg6CtKwfgdmVqY1WIiXKc3Q1bkRqGLi+2W/6ao+6Y7gu/RCwRuAhGEzh5B4KlszSuTLgZYuqFqo5bImjNKng==
 agent-base@7.1.4 | development | MIT
   Lockfile path: node_modules/agent-base
   Package: https://www.npmjs.com/package/agent-base/v/7.1.4
@@ -2115,6 +2135,21 @@ readable-stream@3.6.2 | runtime, optional | MIT
   Package: https://www.npmjs.com/package/readable-stream/v/3.6.2
   Archive: https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz
   Integrity: sha512-9u/sniCrY3D5WdsERHzHE4G2YCXqoG5FTHUiCC4SIbr6XcLZBY05ya9EKjYek9O5xOAwjGq+1JdGBAS7Q9ScoA==
+body-parser@2.4.0 | runtime | MIT
+  Lockfile path: node_modules/body-parser
+  Package: https://www.npmjs.com/package/body-parser/v/2.4.0
+  Archive: https://registry.npmjs.org/body-parser/-/body-parser-2.4.0.tgz
+  Integrity: sha512-Ifk1KcLrxaGt1occQagQNFNNOqRt1LFuehEnHHzB8Z6cRgIxRU1TBaiIsUiCdA+gy5PL7Y1IX31DNKkRmxtXjQ==
+content-type@2.1.0 | runtime | MIT
+  Lockfile path: node_modules/body-parser/node_modules/content-type
+  Package: https://www.npmjs.com/package/content-type/v/2.1.0
+  Archive: https://registry.npmjs.org/content-type/-/content-type-2.1.0.tgz
+  Integrity: sha512-mj7UPXE0jaqaOsukNZRUEfEi2AcL7C/vwmwcHV0O97eO1E1pxBZuyjlZrx5seTaNBg1U6+o35wpa35Qfcc+7ag==
+qs@6.17.0 | runtime | BSD-3-Clause
+  Lockfile path: node_modules/body-parser/node_modules/qs
+  Package: https://www.npmjs.com/package/qs/v/6.17.0
+  Archive: https://registry.npmjs.org/qs/-/qs-6.17.0.tgz
+  Integrity: sha512-5LK5BZ2XDHMvcUJaf0CQ5HL3aVgKbpklvByC7qLSxYkfE8COEEbJg5xCHWCTqzqi0Gs4Jn5Mv5v3R38W6edscA==
 boolbase@1.0.0 | development | ISC
   Lockfile path: node_modules/boolbase
   Package: https://www.npmjs.com/package/boolbase/v/1.0.0
@@ -2135,6 +2170,16 @@ buffer@6.0.3 | runtime | MIT
   Package: https://www.npmjs.com/package/buffer/v/6.0.3
   Archive: https://registry.npmjs.org/buffer/-/buffer-6.0.3.tgz
   Integrity: sha512-FTiCpNxtwiZZHEZbcbTIcZjERVICn9yq/pDFkTl95/AxzD1naBctN7YO68riM/gLSDY7sdrMby8hofADYuuqOA==
+buffer-from@1.1.2 | runtime, optional | MIT
+  Lockfile path: node_modules/buffer-from
+  Package: https://www.npmjs.com/package/buffer-from/v/1.1.2
+  Archive: https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.2.tgz
+  Integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
+bytes@3.1.2 | runtime | MIT
+  Lockfile path: node_modules/bytes
+  Package: https://www.npmjs.com/package/bytes/v/3.1.2
+  Archive: https://registry.npmjs.org/bytes/-/bytes-3.1.2.tgz
+  Integrity: sha512-/Nf7TyzTx6S3yRJObOAV7956r8cr2+Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0pBdcYbEg==
 call-bind@1.0.9 | runtime | MIT
   Lockfile path: node_modules/call-bind
   Package: https://www.npmjs.com/package/call-bind/v/1.0.9
@@ -2170,6 +2215,11 @@ canonicalize@3.0.0 | runtime | Apache-2.0
   Package: https://www.npmjs.com/package/canonicalize/v/3.0.0
   Archive: https://registry.npmjs.org/canonicalize/-/canonicalize-3.0.0.tgz
   Integrity: sha512-yYLfHyDMIXRyRqsKBRLX023riFLpXY2YOfdtqKXZRZy9qsfOJ9U+4F9YZL7MEzL5+ziN2x2nlBvY/Voi3EBljA==
+caseless@0.12.0 | runtime, optional | Apache-2.0
+  Lockfile path: node_modules/caseless
+  Package: https://www.npmjs.com/package/caseless/v/0.12.0
+  Archive: https://registry.npmjs.org/caseless/-/caseless-0.12.0.tgz
+  Integrity: sha512-4tYFyifaFfGacoiObjJegolkwSU4xQNGbVgUiNYVUxbQ2x2lUsFvY4hVgVzGiIe6WLOPqycWXA40l+PWsxthUw==
 cborg@6.1.3 | runtime | Apache-2.0
   Lockfile path: node_modules/cborg
   Package: https://www.npmjs.com/package/cborg/v/6.1.3
@@ -2380,6 +2430,26 @@ concat-map@0.0.1 | development | MIT
   Package: https://www.npmjs.com/package/concat-map/v/0.0.1
   Archive: https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz
   Integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
+concat-stream@2.0.0 | runtime, optional | MIT
+  Lockfile path: node_modules/concat-stream
+  Package: https://www.npmjs.com/package/concat-stream/v/2.0.0
+  Archive: https://registry.npmjs.org/concat-stream/-/concat-stream-2.0.0.tgz
+  Integrity: sha512-MWufYdFw53ccGjCA+Ol7XJYpAlW6/prSMzuPOTRnJGcGzuhLn4Scrz7qf6o8bROZ514ltazcIFJZevcfbo0x7A==
+readable-stream@3.6.2 | runtime, optional | MIT
+  Lockfile path: node_modules/concat-stream/node_modules/readable-stream
+  Package: https://www.npmjs.com/package/readable-stream/v/3.6.2
+  Archive: https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz
+  Integrity: sha512-9u/sniCrY3D5WdsERHzHE4G2YCXqoG5FTHUiCC4SIbr6XcLZBY05ya9EKjYek9O5xOAwjGq+1JdGBAS7Q9ScoA==
+content-disposition@2.0.1 | runtime | MIT
+  Lockfile path: node_modules/content-disposition
+  Package: https://www.npmjs.com/package/content-disposition/v/2.0.1
+  Archive: https://registry.npmjs.org/content-disposition/-/content-disposition-2.0.1.tgz
+  Integrity: sha512-e+H0ZXHSWYrENhQzw1LPuP4oF5MzVKmDU6d3hxlvaPEYLLg62MxtQNPRx4SYSuYJSBUgnQIG4HIN2tEtNv7Dog==
+content-type@1.0.5 | runtime | MIT
+  Lockfile path: node_modules/content-type
+  Package: https://www.npmjs.com/package/content-type/v/1.0.5
+  Archive: https://registry.npmjs.org/content-type/-/content-type-1.0.5.tgz
+  Integrity: sha512-nTjqfcBFEipKdXCv4YDQWCfmcLZKm81ldF0pAopTvyrFGVbcR6P/VAAd5G7N+0tTr8QqiU0tFadD6FK4NtJwOA==
 conventional-changelog-conventionalcommits@6.1.0 | development | ISC
   Lockfile path: node_modules/conventional-changelog-conventionalcommits
   Package: https://www.npmjs.com/package/conventional-changelog-conventionalcommits/v/6.1.0
@@ -2400,11 +2470,26 @@ convert-source-map@2.0.0 | development | MIT
   Package: https://www.npmjs.com/package/convert-source-map/v/2.0.0
   Archive: https://registry.npmjs.org/convert-source-map/-/convert-source-map-2.0.0.tgz
   Integrity: sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==
+cookie@0.7.2 | runtime | MIT
+  Lockfile path: node_modules/cookie
+  Package: https://www.npmjs.com/package/cookie/v/0.7.2
+  Archive: https://registry.npmjs.org/cookie/-/cookie-0.7.2.tgz
+  Integrity: sha512-yki5XnKuf750l50uGTllt6kKILY4nQ1eNIQatoXEByZ5dWgnKqbnqmTrBE5B4N7lrMJKQ2ytWMiTO2o0v6Ew/w==
+cookie-signature@1.2.2 | runtime | MIT
+  Lockfile path: node_modules/cookie-signature
+  Package: https://www.npmjs.com/package/cookie-signature/v/1.2.2
+  Archive: https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.2.2.tgz
+  Integrity: sha512-D76uU73ulSXrD1UXF4KE2TMxVVwhsnCgfAyTg9k8P6KGZjlXKrOLe4dJQKI3Bxi5wjesZoFXJWElNWBjPZMbhg==
 copy-anything@4.1.5 | development | MIT
   Lockfile path: node_modules/copy-anything
   Package: https://www.npmjs.com/package/copy-anything/v/4.1.5
   Archive: https://registry.npmjs.org/copy-anything/-/copy-anything-4.1.5.tgz
   Integrity: sha512-vePst2VLTSqPglW7Q98VwFpGiGpOHTyXIo81MO5VyLecA5zMbZw/P/V1vmwD1jksa2iJpn/YkDrJ3XhTfzUyhQ==
+cors@2.8.6 | runtime | MIT
+  Lockfile path: node_modules/cors
+  Package: https://www.npmjs.com/package/cors/v/2.8.6
+  Archive: https://registry.npmjs.org/cors/-/cors-2.8.6.tgz
+  Integrity: sha512-tJtZBBHA6vjIAaF6EnIaq6laBBP9aq/Y3ouVJjEfoHbRBcHBAHYcMh/w8LDrk2PvIMMq8gmopa5D4V8RmbrxGw==
 crc-32@1.2.2 | runtime | Apache-2.0
   Lockfile path: node_modules/crc-32
   Package: https://www.npmjs.com/package/crc-32/v/1.2.2
@@ -2435,7 +2520,7 @@ dateformat@3.0.3 | development | MIT
   Package: https://www.npmjs.com/package/dateformat/v/3.0.3
   Archive: https://registry.npmjs.org/dateformat/-/dateformat-3.0.3.tgz
   Integrity: sha512-jyCETtSl3VMZMWeRo7iY1FL19ges1t55hMo5yaam4Jrsm5EPL89UQkoQRyiI+Yf4k8r2ZpdngkV8hr1lIdjb3Q==
-debug@4.4.3 | development | MIT
+debug@4.4.3 | runtime | MIT
   Lockfile path: node_modules/debug
   Package: https://www.npmjs.com/package/debug/v/4.4.3
   Archive: https://registry.npmjs.org/debug/-/debug-4.4.3.tgz
@@ -2470,6 +2555,11 @@ define-data-property@1.1.4 | runtime | MIT
   Package: https://www.npmjs.com/package/define-data-property/v/1.1.4
   Archive: https://registry.npmjs.org/define-data-property/-/define-data-property-1.1.4.tgz
   Integrity: sha512-rBMvIzlpA8v6E+SJZoo++HAYqsLrkg7MSfIinMPFhmkorw7X+dOXVJQs+QT69zGkzMyfDnIMN2Wid1+NbL3T+A==
+depd@2.0.0 | runtime | MIT
+  Lockfile path: node_modules/depd
+  Package: https://www.npmjs.com/package/depd/v/2.0.0
+  Archive: https://registry.npmjs.org/depd/-/depd-2.0.0.tgz
+  Integrity: sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==
 deprecation@2.3.1 | development | ISC
   Lockfile path: node_modules/deprecation
   Package: https://www.npmjs.com/package/deprecation/v/2.3.1
@@ -2550,6 +2640,11 @@ dunder-proto@1.0.1 | runtime | MIT
   Package: https://www.npmjs.com/package/dunder-proto/v/1.0.1
   Archive: https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz
   Integrity: sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A==
+ee-first@1.1.1 | runtime | MIT
+  Lockfile path: node_modules/ee-first
+  Package: https://www.npmjs.com/package/ee-first/v/1.1.1
+  Archive: https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz
+  Integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 electron-to-chromium@1.5.452 | development | ISC
   Lockfile path: node_modules/electron-to-chromium
   Package: https://www.npmjs.com/package/electron-to-chromium/v/1.5.452
@@ -2570,6 +2665,11 @@ empathic@2.1.0 | development | MIT
   Package: https://www.npmjs.com/package/empathic/v/2.1.0
   Archive: https://registry.npmjs.org/empathic/-/empathic-2.1.0.tgz
   Integrity: sha512-AnfC1ATldl49/cvZdLPDjBfrRNwbDO05aibiOtzQu3qtlbJtomNLhF30HEtn/7iBz50dlMECqATo3fG0LrdEgw==
+encodeurl@2.0.0 | runtime | MIT
+  Lockfile path: node_modules/encodeurl
+  Package: https://www.npmjs.com/package/encodeurl/v/2.0.0
+  Archive: https://registry.npmjs.org/encodeurl/-/encodeurl-2.0.0.tgz
+  Integrity: sha512-Q0n9HRi4m6JuGIV1eFlmvJB7ZEVxu93IrMyiMsGC0lrMJMWzRgx6WGquyfQgZVb31vhGgXnfmPNNXmxnOkRBrg==
 end-of-stream@1.4.5 | runtime, optional | MIT
   Lockfile path: node_modules/end-of-stream
   Package: https://www.npmjs.com/package/end-of-stream/v/1.4.5
@@ -2580,6 +2680,11 @@ entities@7.0.1 | development | BSD-2-Clause
   Package: https://www.npmjs.com/package/entities/v/7.0.1
   Archive: https://registry.npmjs.org/entities/-/entities-7.0.1.tgz
   Integrity: sha512-TWrgLOFUQTH994YUyl1yT4uyavY5nNB5muff+RtWaqNVCAK408b5ZnnbNAUEWLTCpum9w6arT70i1XdQ4UeOPA==
+env-paths@2.2.1 | runtime, optional | MIT
+  Lockfile path: node_modules/env-paths
+  Package: https://www.npmjs.com/package/env-paths/v/2.2.1
+  Archive: https://registry.npmjs.org/env-paths/-/env-paths-2.2.1.tgz
+  Integrity: sha512-+h1lkLKhZMTYjog1VEpJNG7NZJWcuc2DDk/qsqSTRRCOXiLjeQ1d1/udrUGhqMxUgAlwKNZ0cf2uqan5GLuS2A==
 environment@1.1.0 | development | MIT
   Lockfile path: node_modules/environment
   Package: https://www.npmjs.com/package/environment/v/1.1.0
@@ -2620,6 +2725,11 @@ escalade@3.2.0 | development | MIT
   Package: https://www.npmjs.com/package/escalade/v/3.2.0
   Archive: https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz
   Integrity: sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==
+escape-html@1.0.3 | runtime | MIT
+  Lockfile path: node_modules/escape-html
+  Package: https://www.npmjs.com/package/escape-html/v/1.0.3
+  Archive: https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz
+  Integrity: sha512-NiSupZ4OeuGwr68lGIeym/ksIZMJodUGOSCZ/FSnTxcrekbvqrgdUxlJOMpijaKZVjAJrWrGs/6Jy8OMuyj9ow==
 escape-string-regexp@1.0.5 | development | MIT
   Lockfile path: node_modules/escape-string-regexp
   Package: https://www.npmjs.com/package/escape-string-regexp/v/1.0.5
@@ -2630,6 +2740,11 @@ estree-walker@3.0.3 | development | MIT
   Package: https://www.npmjs.com/package/estree-walker/v/3.0.3
   Archive: https://registry.npmjs.org/estree-walker/-/estree-walker-3.0.3.tgz
   Integrity: sha512-7RUKfXgSMMkzt6ZuXmqapOurLGPPfgj6l9uRZ7lRGolvk0y2yocc35LdcxKC5PQZdn2DMqioAQ2NoWcrTKmm6g==
+etag@1.8.1 | runtime | MIT
+  Lockfile path: node_modules/etag
+  Package: https://www.npmjs.com/package/etag/v/1.8.1
+  Archive: https://registry.npmjs.org/etag/-/etag-1.8.1.tgz
+  Integrity: sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==
 event-target-shim@5.0.1 | runtime | MIT
   Lockfile path: node_modules/event-target-shim
   Package: https://www.npmjs.com/package/event-target-shim/v/5.0.1
@@ -2675,6 +2790,21 @@ expect-type@1.4.0 | development | Apache-2.0
   Package: https://www.npmjs.com/package/expect-type/v/1.4.0
   Archive: https://registry.npmjs.org/expect-type/-/expect-type-1.4.0.tgz
   Integrity: sha512-KfYbmpRm0VbLjEvVa9yGwCi9GI34xvi7A/HXYWQO65CSD2u3MczUJSuwXKFIxlGsgBQizV9q5J9NHj4VG0n+pA==
+express@5.3.0 | runtime | MIT
+  Lockfile path: node_modules/express
+  Package: https://www.npmjs.com/package/express/v/5.3.0
+  Archive: https://registry.npmjs.org/express/-/express-5.3.0.tgz
+  Integrity: sha512-qCqy1xSoaugxOD4IVHb1ZWdkvCF2W3aE2okKouWj8VwJ+ztskSiXoBnCSJqfKT+cVPJhuJqe9YLbY425+Zh00g==
+express-rate-limit@8.7.1 | runtime | MIT
+  Lockfile path: node_modules/express-rate-limit
+  Package: https://www.npmjs.com/package/express-rate-limit/v/8.7.1
+  Archive: https://registry.npmjs.org/express-rate-limit/-/express-rate-limit-8.7.1.tgz
+  Integrity: sha512-2FXbqkygil3mZiXzEtM0IjE/UBmBNot0J1GEVrJT4JbrvwOSoEtqtO+wHbiMQELWe1eNvHoYRg2dkjOid+6JkA==
+content-type@2.1.0 | runtime | MIT
+  Lockfile path: node_modules/express/node_modules/content-type
+  Package: https://www.npmjs.com/package/content-type/v/2.1.0
+  Archive: https://registry.npmjs.org/content-type/-/content-type-2.1.0.tgz
+  Integrity: sha512-mj7UPXE0jaqaOsukNZRUEfEi2AcL7C/vwmwcHV0O97eO1E1pxBZuyjlZrx5seTaNBg1U6+o35wpa35Qfcc+7ag==
 fast-check@4.9.0 | development | MIT
   Lockfile path: node_modules/fast-check
   Package: https://www.npmjs.com/package/fast-check/v/4.9.0
@@ -2715,6 +2845,21 @@ fdir@6.5.0 | development | MIT
   Package: https://www.npmjs.com/package/fdir/v/6.5.0
   Archive: https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz
   Integrity: sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==
+ffmpeg-static@5.3.0 | runtime, optional | GPL-3.0-or-later
+  Lockfile path: node_modules/ffmpeg-static
+  Package: https://www.npmjs.com/package/ffmpeg-static/v/5.3.0
+  Archive: https://registry.npmjs.org/ffmpeg-static/-/ffmpeg-static-5.3.0.tgz
+  Integrity: sha512-H+K6sW6TiIX6VGend0KQwthe+kaceeH/luE8dIZyOP35ik7ahYojDuqlTV1bOrtEwl01sy2HFNGQfi5IDJvotg==
+agent-base@6.0.2 | runtime, optional | MIT
+  Lockfile path: node_modules/ffmpeg-static/node_modules/agent-base
+  Package: https://www.npmjs.com/package/agent-base/v/6.0.2
+  Archive: https://registry.npmjs.org/agent-base/-/agent-base-6.0.2.tgz
+  Integrity: sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==
+https-proxy-agent@5.0.1 | runtime, optional | MIT
+  Lockfile path: node_modules/ffmpeg-static/node_modules/https-proxy-agent
+  Package: https://www.npmjs.com/package/https-proxy-agent/v/5.0.1
+  Archive: https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-5.0.1.tgz
+  Integrity: sha512-dFcAjpTQFgoLMzC2VwU+C/CbS7uRL0lWmxDITmqm7C+7F0Odmj6s9l6alZc6AELXhrnggM2CeWSXHGOdX2YtwA==
 figures@6.1.0 | development | MIT
   Lockfile path: node_modules/figures
   Package: https://www.npmjs.com/package/figures/v/6.1.0
@@ -2725,6 +2870,11 @@ file-uri-to-path@1.0.0 | runtime, optional | MIT
   Package: https://www.npmjs.com/package/file-uri-to-path/v/1.0.0
   Archive: https://registry.npmjs.org/file-uri-to-path/-/file-uri-to-path-1.0.0.tgz
   Integrity: sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==
+finalhandler@2.1.1 | runtime | MIT
+  Lockfile path: node_modules/finalhandler
+  Package: https://www.npmjs.com/package/finalhandler/v/2.1.1
+  Archive: https://registry.npmjs.org/finalhandler/-/finalhandler-2.1.1.tgz
+  Integrity: sha512-S8KoZgRZN+a5rNwqTxlZZePjT/4cnm0ROV70LedRHZ0p8u9fRID0hJUZQpkKLzro8LfmC8sx23bY6tVNxv8pQA==
 find-up@4.1.0 | development | MIT
   Lockfile path: node_modules/find-up
   Package: https://www.npmjs.com/package/find-up/v/4.1.0
@@ -2750,6 +2900,16 @@ formatly@0.7.1 | development | MIT
   Package: https://www.npmjs.com/package/formatly/v/0.7.1
   Archive: https://registry.npmjs.org/formatly/-/formatly-0.7.1.tgz
   Integrity: sha512-ESuCEJE0SGgabl9q+zABI8LhJDmF+8nhpuqDzuM48HfJ9QTD5o6PqFJDFZY7w6f8xsh5lixuj5nJsQNvYOWvKQ==
+forwarded@0.2.0 | runtime | MIT
+  Lockfile path: node_modules/forwarded
+  Package: https://www.npmjs.com/package/forwarded/v/0.2.0
+  Archive: https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz
+  Integrity: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==
+fresh@2.0.0 | runtime | MIT
+  Lockfile path: node_modules/fresh
+  Package: https://www.npmjs.com/package/fresh/v/2.0.0
+  Archive: https://registry.npmjs.org/fresh/-/fresh-2.0.0.tgz
+  Integrity: sha512-Rx/WycZ60HOaqLKAi6cHRKKI7zxWbJ31MhntmtwMoaTeF7XFH9hhBp8vITaMidfljRQ6eYWCKkaTK+ykVJHP2A==
 frida@17.23.2 | runtime, optional | LGPL-2.0 WITH WxWindows-exception-3.1
   Lockfile path: node_modules/frida
   Package: https://www.npmjs.com/package/frida/v/17.23.2
@@ -2885,6 +3045,11 @@ he@1.2.0 | development | MIT
   Package: https://www.npmjs.com/package/he/v/1.2.0
   Archive: https://registry.npmjs.org/he/-/he-1.2.0.tgz
   Integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
+hono@4.13.14 | runtime | MIT
+  Lockfile path: node_modules/hono
+  Package: https://www.npmjs.com/package/hono/v/4.13.14
+  Archive: https://registry.npmjs.org/hono/-/hono-4.13.14.tgz
+  Integrity: sha512-yhRLQ21U6qa9Hsu2N7Qcbh8tE+WKEcoErjIo56LeSGiGXGp9sA7UpE86Ui9uexb61KakiGwuHMn2QdV7w6i6kQ==
 hookable@5.5.3 | development | MIT
   Lockfile path: node_modules/hookable
   Package: https://www.npmjs.com/package/hookable/v/5.5.3
@@ -2905,11 +3070,26 @@ html-void-elements@3.0.0 | development | MIT
   Package: https://www.npmjs.com/package/html-void-elements/v/3.0.0
   Archive: https://registry.npmjs.org/html-void-elements/-/html-void-elements-3.0.0.tgz
   Integrity: sha512-bEqo66MRXsUGxWHV5IP0PUiAWwoEjba4VCzg0LjFJBpchPaTfyfCKTG6bc5F8ucKec3q5y6qOdGyYTSBEvhCrg==
+http-errors@2.0.1 | runtime | MIT
+  Lockfile path: node_modules/http-errors
+  Package: https://www.npmjs.com/package/http-errors/v/2.0.1
+  Archive: https://registry.npmjs.org/http-errors/-/http-errors-2.0.1.tgz
+  Integrity: sha512-4FbRdAX+bSdmo4AUFuS0WNiPz8NgFt+r8ThgNWmlrjQjt1Q7ZR9+zTlce2859x4KSXrwIsaeTqDoKQmtP8pLmQ==
 http-proxy-agent@7.0.2 | development | MIT
   Lockfile path: node_modules/http-proxy-agent
   Package: https://www.npmjs.com/package/http-proxy-agent/v/7.0.2
   Archive: https://registry.npmjs.org/http-proxy-agent/-/http-proxy-agent-7.0.2.tgz
   Integrity: sha512-T1gkAiYYDWYx3V5Bmyu7HcfcvL7mUrTWiM6yOfa3PIphViJ/gFPbvidQ+veqSOHci/PxBcDabeUNCzpOODJZig==
+http-response-object@3.0.2 | runtime, optional | MIT
+  Lockfile path: node_modules/http-response-object
+  Package: https://www.npmjs.com/package/http-response-object/v/3.0.2
+  Archive: https://registry.npmjs.org/http-response-object/-/http-response-object-3.0.2.tgz
+  Integrity: sha512-bqX0XTF6fnXSQcEJ2Iuyr75yVakyjIDCqroJQ/aHfSdlM743Cwqoi2nDYMzLGWUcuTWGWy8AAvOKXTfiv6q9RA==
+@types/node@10.17.60 | runtime, optional | MIT
+  Lockfile path: node_modules/http-response-object/node_modules/@types/node
+  Package: https://www.npmjs.com/package/@types/node/v/10.17.60
+  Archive: https://registry.npmjs.org/@types/node/-/node-10.17.60.tgz
+  Integrity: sha512-F0KIgDJfy2nA3zMLmWGKxcH2ZVEtCZXHHdOQs2gSaQ27+lNeEfGxzkIw90aXswATX7AZ33tahPbzy6KAfUreVw==
 https-proxy-agent@7.0.6 | development | MIT
   Lockfile path: node_modules/https-proxy-agent
   Package: https://www.npmjs.com/package/https-proxy-agent/v/7.0.6
@@ -2925,7 +3105,7 @@ husky@9.1.7 | development | MIT
   Package: https://www.npmjs.com/package/husky/v/9.1.7
   Archive: https://registry.npmjs.org/husky/-/husky-9.1.7.tgz
   Integrity: sha512-5gs5ytaNjBrh5Ow3zrvdUUY+0VxIuWVL4i9irt6friV+BqdCfmV11CQTWMiBYWHbXhco+J1kHfTOUkePhCDvMA==
-iconv-lite@0.7.3 | development | MIT
+iconv-lite@0.7.3 | runtime | MIT
   Lockfile path: node_modules/iconv-lite
   Package: https://www.npmjs.com/package/iconv-lite/v/0.7.3
   Archive: https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.7.3.tgz
@@ -2980,6 +3160,16 @@ ini@1.3.8 | runtime, optional | ISC
   Package: https://www.npmjs.com/package/ini/v/1.3.8
   Archive: https://registry.npmjs.org/ini/-/ini-1.3.8.tgz
   Integrity: sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
+ip-address@10.7.5 | runtime | MIT
+  Lockfile path: node_modules/ip-address
+  Package: https://www.npmjs.com/package/ip-address/v/10.7.5
+  Archive: https://registry.npmjs.org/ip-address/-/ip-address-10.7.5.tgz
+  Integrity: sha512-t2v0rkILYv9WXmSL7TpAaU3HXgaFYOPUcH3QHgwQ++gpJuH3bqyMy4Fvt/DJCTKwzH3Cf+bAp5W/mFL39KPLzA==
+ipaddr.js@1.9.1 | runtime | MIT
+  Lockfile path: node_modules/ipaddr.js
+  Package: https://www.npmjs.com/package/ipaddr.js/v/1.9.1
+  Archive: https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.9.1.tgz
+  Integrity: sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==
 is-arrayish@0.2.1 | development | MIT
   Lockfile path: node_modules/is-arrayish
   Package: https://www.npmjs.com/package/is-arrayish/v/0.2.1
@@ -3010,6 +3200,11 @@ is-plain-obj@4.1.0 | development | MIT
   Package: https://www.npmjs.com/package/is-plain-obj/v/4.1.0
   Archive: https://registry.npmjs.org/is-plain-obj/-/is-plain-obj-4.1.0.tgz
   Integrity: sha512-+Pgi+vMuUNkJyExiMBt5IlFoMyKnr5zhJ4Uspz58WOhBF5QoIZkFyNHIbBAtHwzVAgk5RtndVNsDRN61/mmDqg==
+is-promise@4.0.0 | runtime | MIT
+  Lockfile path: node_modules/is-promise
+  Package: https://www.npmjs.com/package/is-promise/v/4.0.0
+  Archive: https://registry.npmjs.org/is-promise/-/is-promise-4.0.0.tgz
+  Integrity: sha512-hvpoI6korhJMnej285dSg6nu1+e6uxs7zG3BYAm5byqDsgJNWwxzM6z6iZiAgQR4TJ30JmBTOwqZUw3WlyH3AQ==
 is-stream@4.0.1 | development | MIT
   Lockfile path: node_modules/is-stream
   Package: https://www.npmjs.com/package/is-stream/v/4.0.1
@@ -3130,6 +3325,11 @@ json-schema-traverse@1.0.0 | runtime | MIT
   Package: https://www.npmjs.com/package/json-schema-traverse/v/1.0.0
   Archive: https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-1.0.0.tgz
   Integrity: sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==
+json-schema-typed@8.0.2 | runtime | BSD-2-Clause
+  Lockfile path: node_modules/json-schema-typed
+  Package: https://www.npmjs.com/package/json-schema-typed/v/8.0.2
+  Archive: https://registry.npmjs.org/json-schema-typed/-/json-schema-typed-8.0.2.tgz
+  Integrity: sha512-fQhoXdcvc3V28x7C7BMs4P5+kNlgUURe2jmUT1T//oBRMDrqy1QPelJimwZGo7Hg9VPV3EQV5Bnq4hbFy2vetA==
 json-stringify-safe@5.0.1 | development | ISC
   Lockfile path: node_modules/json-stringify-safe
   Package: https://www.npmjs.com/package/json-stringify-safe/v/5.0.1
@@ -3325,6 +3525,11 @@ mdast-util-to-hast@13.2.1 | development | MIT
   Package: https://www.npmjs.com/package/mdast-util-to-hast/v/13.2.1
   Archive: https://registry.npmjs.org/mdast-util-to-hast/-/mdast-util-to-hast-13.2.1.tgz
   Integrity: sha512-cctsq2wp5vTsLIcaymblUriiTcZd0CwWtCbLvrOzYCDZoWyMNV8sZ7krj09FSnsiJi3WVsHLM4k6Dq/yaPyCXA==
+media-typer@1.1.1 | runtime | MIT
+  Lockfile path: node_modules/media-typer
+  Package: https://www.npmjs.com/package/media-typer/v/1.1.1
+  Archive: https://registry.npmjs.org/media-typer/-/media-typer-1.1.1.tgz
+  Integrity: sha512-yz3xRaG20c6/BOzvYoDaGtPmGscs7YivItZEEqe6GbwNfHuxu9YNmvnEkMzKldAGY4/80pRcQRZSEnhquk9XuQ==
 meow@8.1.2 | development | MIT
   Lockfile path: node_modules/meow
   Package: https://www.npmjs.com/package/meow/v/8.1.2
@@ -3335,6 +3540,11 @@ type-fest@0.18.1 | development | (MIT OR CC0-1.0)
   Package: https://www.npmjs.com/package/type-fest/v/0.18.1
   Archive: https://registry.npmjs.org/type-fest/-/type-fest-0.18.1.tgz
   Integrity: sha512-OIAYXk8+ISY+qTOwkHtKqzAuxchoMiD9Udx+FSGQDuiRR+PJKJHc2NJAXlbhkGwTt/4/nKZxELY1w3ReWOL8mw==
+merge-descriptors@2.0.0 | runtime | MIT
+  Lockfile path: node_modules/merge-descriptors
+  Package: https://www.npmjs.com/package/merge-descriptors/v/2.0.0
+  Archive: https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-2.0.0.tgz
+  Integrity: sha512-Snk314V5ayFLhp3fkUREub6WtjBfPdCPY1Ln8/8munuLuiYhsABgBVWsozAG+MWMbVEvcdcpbi9R7ww22l9Q3g==
 micromark-util-character@2.1.1 | development | MIT
   Lockfile path: node_modules/micromark-util-character
   Package: https://www.npmjs.com/package/micromark-util-character/v/2.1.1
@@ -3360,6 +3570,16 @@ micromark-util-types@2.0.3 | development | MIT
   Package: https://www.npmjs.com/package/micromark-util-types/v/2.0.3
   Archive: https://registry.npmjs.org/micromark-util-types/-/micromark-util-types-2.0.3.tgz
   Integrity: sha512-oxB2Ik03hI0gv+VNn9tnh1t1YEe9MDPptViAEgfdf3YQHsn0pzGTgCdlSCJXcwhqm8phaEuM7zeEu3QQzVBrPg==
+mime-db@1.54.0 | runtime | MIT
+  Lockfile path: node_modules/mime-db
+  Package: https://www.npmjs.com/package/mime-db/v/1.54.0
+  Archive: https://registry.npmjs.org/mime-db/-/mime-db-1.54.0.tgz
+  Integrity: sha512-aU5EJuIN2WDemCcAp2vFBfp/m4EAhWJnUNSSw0ixs7/kXbd6Pg64EmwJkNdFhB8aWt1sH2CTXrLxo/iAGV3oPQ==
+mime-types@3.0.2 | runtime | MIT
+  Lockfile path: node_modules/mime-types
+  Package: https://www.npmjs.com/package/mime-types/v/3.0.2
+  Archive: https://registry.npmjs.org/mime-types/-/mime-types-3.0.2.tgz
+  Integrity: sha512-Lbgzdk0h4juoQ9fCKXW4by0UJqj+nOOrI9MJ1sSj4nI8aI2eo1qmvQEie4VD1glsS250n15LsWsYtCugiStS5A==
 mimic-function@5.0.1 | development | MIT
   Lockfile path: node_modules/mimic-function
   Package: https://www.npmjs.com/package/mimic-function/v/5.0.1
@@ -3430,7 +3650,7 @@ modify-values@1.0.1 | development | MIT
   Package: https://www.npmjs.com/package/modify-values/v/1.0.1
   Archive: https://registry.npmjs.org/modify-values/-/modify-values-1.0.1.tgz
   Integrity: sha512-xV2bxeN6F7oYjZWTe/YPAy6MN2M+sL4u/Rlm2AHCIVGfo2p1yGmBHQ6vHehl4bRTZBdHu3TSkWdYgkwpYzAGSw==
-ms@2.1.3 | development | MIT
+ms@2.1.3 | runtime | MIT
   Lockfile path: node_modules/ms
   Package: https://www.npmjs.com/package/ms/v/2.1.3
   Archive: https://registry.npmjs.org/ms/-/ms-2.1.3.tgz
@@ -3470,6 +3690,16 @@ napi-build-utils@2.0.0 | runtime, optional | MIT
   Package: https://www.npmjs.com/package/napi-build-utils/v/2.0.0
   Archive: https://registry.npmjs.org/napi-build-utils/-/napi-build-utils-2.0.0.tgz
   Integrity: sha512-GEbrYkbfF7MoNaoh2iGG84Mnf/WZfB0GdGEsM8wz7Expx/LlWf5U8t9nvJKXSp3qr5IsEbK04cBGhol/KwOsWA==
+negotiator@1.1.0 | runtime | MIT
+  Lockfile path: node_modules/negotiator
+  Package: https://www.npmjs.com/package/negotiator/v/1.1.0
+  Archive: https://registry.npmjs.org/negotiator/-/negotiator-1.1.0.tgz
+  Integrity: sha512-NMPBRMJgiQHjbd8phG3Vebdx4kZ1H121rbl5IkMqeOsahptB9BKo/d7oJ3zTXqTgagn2bWlNSXkh0QUGM31RYg==
+content-type@2.1.0 | runtime | MIT
+  Lockfile path: node_modules/negotiator/node_modules/content-type
+  Package: https://www.npmjs.com/package/content-type/v/2.1.0
+  Archive: https://registry.npmjs.org/content-type/-/content-type-2.1.0.tgz
+  Integrity: sha512-mj7UPXE0jaqaOsukNZRUEfEi2AcL7C/vwmwcHV0O97eO1E1pxBZuyjlZrx5seTaNBg1U6+o35wpa35Qfcc+7ag==
 neo-async@2.6.2 | development | MIT
   Lockfile path: node_modules/neo-async
   Package: https://www.npmjs.com/package/neo-async/v/2.6.2
@@ -3510,7 +3740,12 @@ nth-check@2.1.1 | development | BSD-2-Clause
   Package: https://www.npmjs.com/package/nth-check/v/2.1.1
   Archive: https://registry.npmjs.org/nth-check/-/nth-check-2.1.1.tgz
   Integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==
-object-inspect@1.13.4 | development | MIT
+object-assign@4.1.1 | runtime | MIT
+  Lockfile path: node_modules/object-assign
+  Package: https://www.npmjs.com/package/object-assign/v/4.1.1
+  Archive: https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz
+  Integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==
+object-inspect@1.13.4 | runtime | MIT
   Lockfile path: node_modules/object-inspect
   Package: https://www.npmjs.com/package/object-inspect/v/1.13.4
   Archive: https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.4.tgz
@@ -3525,6 +3760,11 @@ on-exit-leak-free@2.1.2 | runtime | MIT
   Package: https://www.npmjs.com/package/on-exit-leak-free/v/2.1.2
   Archive: https://registry.npmjs.org/on-exit-leak-free/-/on-exit-leak-free-2.1.2.tgz
   Integrity: sha512-0eJJY6hXLGf1udHwfNftBqH+g73EU4B504nZeKpz1sYRKafAghwxEJunB2O7rDZkL4PGfsMVnTXZ2EjibbqcsA==
+on-finished@2.4.2 | runtime | MIT
+  Lockfile path: node_modules/on-finished
+  Package: https://www.npmjs.com/package/on-finished/v/2.4.2
+  Archive: https://registry.npmjs.org/on-finished/-/on-finished-2.4.2.tgz
+  Integrity: sha512-ATWUv387i+nLD49EiDoOft5scf32Vsdz3ktrQJG9bi7jRFmaXTssvyvj1EmeKVVgvesbqUtvQQvaS2TpTukAZQ==
 once@1.4.0 | runtime | ISC
   Lockfile path: node_modules/once
   Package: https://www.npmjs.com/package/once/v/1.4.0
@@ -3600,6 +3840,11 @@ pako@1.0.11 | runtime | (MIT AND Zlib)
   Package: https://www.npmjs.com/package/pako/v/1.0.11
   Archive: https://registry.npmjs.org/pako/-/pako-1.0.11.tgz
   Integrity: sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw==
+parse-cache-control@1.0.1 | runtime, optional | UNDECLARED
+  Lockfile path: node_modules/parse-cache-control
+  Package: https://www.npmjs.com/package/parse-cache-control/v/1.0.1
+  Archive: https://registry.npmjs.org/parse-cache-control/-/parse-cache-control-1.0.1.tgz
+  Integrity: sha512-60zvsJReQPX5/QP0Kzfd/VrpjScIQ7SHBW6bFCYfEP+fp0Eppr1SHhIO5nd1PjZtvclzSzES9D/p5nFJurwfWg==
 parse-diff@0.11.1 | development | MIT
   Lockfile path: node_modules/parse-diff
   Package: https://www.npmjs.com/package/parse-diff/v/0.11.1
@@ -3645,6 +3890,11 @@ entities@8.1.0 | runtime | BSD-2-Clause
   Package: https://www.npmjs.com/package/entities/v/8.1.0
   Archive: https://registry.npmjs.org/entities/-/entities-8.1.0.tgz
   Integrity: sha512-kxL7msIffSuh9aaFAMD7rxAIuTRMAHMeBtgHW2yUdWw732ZNh4MehkF2gdjvtdmikkaIP9bFDDJOPlsvm7avrA==
+parseurl@1.3.3 | runtime | MIT
+  Lockfile path: node_modules/parseurl
+  Package: https://www.npmjs.com/package/parseurl/v/1.3.3
+  Archive: https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz
+  Integrity: sha512-CiyeOxFT/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3fHynXi9NYO4nWOL+qQ==
 path-exists@4.0.0 | development | MIT
   Lockfile path: node_modules/path-exists
   Package: https://www.npmjs.com/package/path-exists/v/4.0.0
@@ -3670,6 +3920,11 @@ path-scurry@2.0.2 | runtime | BlueOak-1.0.0
   Package: https://www.npmjs.com/package/path-scurry/v/2.0.2
   Archive: https://registry.npmjs.org/path-scurry/-/path-scurry-2.0.2.tgz
   Integrity: sha512-3O/iVVsJAPsOnpwWIeD+d6z/7PmqApyQePUtCndjatj/9I5LylHvt5qluFaBT3I5h3r1ejfR056c+FCv+NnNXg==
+path-to-regexp@8.4.2 | runtime | MIT
+  Lockfile path: node_modules/path-to-regexp
+  Package: https://www.npmjs.com/package/path-to-regexp/v/8.4.2
+  Archive: https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-8.4.2.tgz
+  Integrity: sha512-qRcuIdP69NPm4qbACK+aDogI5CBDMi1jKe0ry5rSQJz8JVLsC7jV8XpiJjGRLLol3N+R5ihGYcrPLTno6pAdBA==
 perfect-debounce@1.0.0 | development | MIT
   Lockfile path: node_modules/perfect-debounce
   Package: https://www.npmjs.com/package/perfect-debounce/v/1.0.0
@@ -3755,7 +4010,7 @@ process-warning@5.0.0 | runtime | MIT
   Package: https://www.npmjs.com/package/process-warning/v/5.0.0
   Archive: https://registry.npmjs.org/process-warning/-/process-warning-5.0.0.tgz
   Integrity: sha512-a39t9ApHNx2L4+HBnQKqxxHNs1r7KF+Intd8Q/g1bUh6q0WIp9voPXJ/x0j+ZL45KF1pJd9+q2jLIRMfvEshkA==
-progress@2.0.3 | development | MIT
+progress@2.0.3 | runtime | MIT
   Lockfile path: node_modules/progress
   Package: https://www.npmjs.com/package/progress/v/2.0.3
   Archive: https://registry.npmjs.org/progress/-/progress-2.0.3.tgz
@@ -3765,6 +4020,11 @@ property-information@7.2.0 | development | MIT
   Package: https://www.npmjs.com/package/property-information/v/7.2.0
   Archive: https://registry.npmjs.org/property-information/-/property-information-7.2.0.tgz
   Integrity: sha512-IAtzIB6sUiWaJYrX9smp3V46pBGbBeLFRGdh25kg1334VcBlD8HzhPeNIWQH9zhGmo2itIe25EHt9dQP7G5hmg==
+proxy-addr@2.0.8 | runtime | MIT
+  Lockfile path: node_modules/proxy-addr
+  Package: https://www.npmjs.com/package/proxy-addr/v/2.0.8
+  Archive: https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.8.tgz
+  Integrity: sha512-5nnx0yGyVUcY6t9RnWcARWtwT9F1D8O9rt08htPvnd49W1IgZtmLkhu9WfMzQj1cFxjHIO6connUNVW5k7AVyQ==
 pump@3.0.4 | runtime, optional | MIT
   Lockfile path: node_modules/pump
   Package: https://www.npmjs.com/package/pump/v/3.0.4
@@ -3775,7 +4035,7 @@ pure-rand@8.4.2 | development | MIT
   Package: https://www.npmjs.com/package/pure-rand/v/8.4.2
   Archive: https://registry.npmjs.org/pure-rand/-/pure-rand-8.4.2.tgz
   Integrity: sha512-vvuOGgcuPJAirlHvuQw1TrOiw7ptaIXXmIbNuiNOY6lNGJJH49PQ1Kj4nd783nPdQhQdicgOjVI2yI/9BD6/Ng==
-qs@6.16.0 | development | BSD-3-Clause
+qs@6.16.0 | runtime | BSD-3-Clause
   Lockfile path: node_modules/qs
   Package: https://www.npmjs.com/package/qs/v/6.16.0
   Archive: https://registry.npmjs.org/qs/-/qs-6.16.0.tgz
@@ -3790,6 +4050,16 @@ quick-lru@4.0.1 | development | MIT
   Package: https://www.npmjs.com/package/quick-lru/v/4.0.1
   Archive: https://registry.npmjs.org/quick-lru/-/quick-lru-4.0.1.tgz
   Integrity: sha512-ARhCpm70fzdcvNQfPoy49IaanKkTlRWF2JMzqhcJbhSFRZv7nPTvZJdcY7301IPmvW+/p0RgIWnQDLJxifsQ7g==
+range-parser@1.3.0 | runtime | MIT
+  Lockfile path: node_modules/range-parser
+  Package: https://www.npmjs.com/package/range-parser/v/1.3.0
+  Archive: https://registry.npmjs.org/range-parser/-/range-parser-1.3.0.tgz
+  Integrity: sha512-hek2mFQpPuI4E1BBKrSto+BU3e3x4xuarsbiwr3+lf7p44juvFMV0XFWQAP3xUyqXA4RrXLIoaSUGbSt056ZMw==
+raw-body@3.0.2 | runtime | MIT
+  Lockfile path: node_modules/raw-body
+  Package: https://www.npmjs.com/package/raw-body/v/3.0.2
+  Archive: https://registry.npmjs.org/raw-body/-/raw-body-3.0.2.tgz
+  Integrity: sha512-K5zQjDllxWkf7Z5xJdV0/B0WTNqx6vxG70zJE4N0kBs4LovmEYWJzQGxC9bS9RAKu3bgM40lrd5zoLJ12MQ5BA==
 rc@1.2.8 | runtime, optional | (BSD-2-Clause OR MIT OR Apache-2.0)
   Lockfile path: node_modules/rc
   Package: https://www.npmjs.com/package/rc/v/1.2.8
@@ -3965,6 +4235,11 @@ rollup@4.64.1 | development | MIT
   Package: https://www.npmjs.com/package/rollup/v/4.64.1
   Archive: https://registry.npmjs.org/rollup/-/rollup-4.64.1.tgz
   Integrity: sha512-7s4V+3J8ux75WNj9qwSJnrWmlCmZ2YHr2fojtHy5RiIMvhJv6DGe7HKKz7L6G1sq1Eg1fLC8SjYtAtDis1F4CQ==
+router@2.2.0 | runtime | MIT
+  Lockfile path: node_modules/router
+  Package: https://www.npmjs.com/package/router/v/2.2.0
+  Archive: https://registry.npmjs.org/router/-/router-2.2.0.tgz
+  Integrity: sha512-nLTrUKm2UyiL7rlhapu/Zl45FwNgkZGaCpZbIHajDYgwlJCOzLSk+cIPAnsEqV955GjILJnKbdQC1nVPz+gAYQ==
 rxjs@7.8.2 | development | Apache-2.0
   Lockfile path: node_modules/rxjs
   Package: https://www.npmjs.com/package/rxjs/v/7.8.2
@@ -3980,7 +4255,7 @@ safe-stable-stringify@2.5.0 | runtime | MIT
   Package: https://www.npmjs.com/package/safe-stable-stringify/v/2.5.0
   Archive: https://registry.npmjs.org/safe-stable-stringify/-/safe-stable-stringify-2.5.0.tgz
   Integrity: sha512-b3rppTKm9T+PsVCBEOUR46GWI7fdOs00VKZ1+9c1EWDaDMvjQc6tUwuFyIprgGgTcWoVHSKrU8H31ZHA2e0RHA==
-safer-buffer@2.1.2 | development | MIT
+safer-buffer@2.1.2 | runtime | MIT
   Lockfile path: node_modules/safer-buffer
   Package: https://www.npmjs.com/package/safer-buffer/v/2.1.2
   Archive: https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz
@@ -3990,6 +4265,11 @@ saxes@6.0.0 | runtime | ISC
   Package: https://www.npmjs.com/package/saxes/v/6.0.0
   Archive: https://registry.npmjs.org/saxes/-/saxes-6.0.0.tgz
   Integrity: sha512-xAg7SOnEhrm5zI3puOOKyy1OMcMlIJZYNJY7xLBwSze0UjhPLnWfj2GF2EpT0jmzaJKIWKHLsaSSajf35bcYnA==
+scrcpy-mcp@0.2.1 | runtime | MIT
+  Lockfile path: node_modules/scrcpy-mcp
+  Package: https://www.npmjs.com/package/scrcpy-mcp/v/0.2.1
+  Archive: https://registry.npmjs.org/scrcpy-mcp/-/scrcpy-mcp-0.2.1.tgz
+  Integrity: sha512-fF4h1Y6LeKBhniCeF9u2LZvb4JTScP+lAdCMN88v/3uYk13F1zf2J/a+cO7CctYRaA9RDHh3iQfNcT2w8vua7w==
 search-insights@2.17.3 | development | MIT
   Lockfile path: node_modules/search-insights
   Package: https://www.npmjs.com/package/search-insights/v/2.17.3
@@ -4000,11 +4280,26 @@ semver@7.8.5 | runtime | ISC
   Package: https://www.npmjs.com/package/semver/v/7.8.5
   Archive: https://registry.npmjs.org/semver/-/semver-7.8.5.tgz
   Integrity: sha512-Y7/KDsb8LjooZpwaqGyulO6DQlksgCncchHGk+sZIY4SBvUocMBEFH5Ur1fI4dV+Jvl0w6cjvucaIi40puRioA==
+send@1.2.1 | runtime | MIT
+  Lockfile path: node_modules/send
+  Package: https://www.npmjs.com/package/send/v/1.2.1
+  Archive: https://registry.npmjs.org/send/-/send-1.2.1.tgz
+  Integrity: sha512-1gnZf7DFcoIcajTjTwjwuDjzuz4PPcY2StKPlsGAQ1+YH20IRVrBaXSWmdjowTJ6u8Rc01PoYOGHXfP1mYcZNQ==
+serve-static@2.2.1 | runtime | MIT
+  Lockfile path: node_modules/serve-static
+  Package: https://www.npmjs.com/package/serve-static/v/2.2.1
+  Archive: https://registry.npmjs.org/serve-static/-/serve-static-2.2.1.tgz
+  Integrity: sha512-xRXBn0pPqQTVQiC8wyQrKs2MOlX24zQ0POGaj0kultvoOCstBQM5yvOhAVSUwOMjQtTvsPWoNCHfPGwaaQJhTw==
 set-function-length@1.2.2 | runtime | MIT
   Lockfile path: node_modules/set-function-length
   Package: https://www.npmjs.com/package/set-function-length/v/1.2.2
   Archive: https://registry.npmjs.org/set-function-length/-/set-function-length-1.2.2.tgz
   Integrity: sha512-pgRc4hJ4/sNjWCSS9AmnS40x3bNMDTknHgL5UaMBTMyJnU90EgWh1Rz+MC9eFu4BuN/UwZjKQuY/1v3rM7HMfg==
+setprototypeof@1.2.0 | runtime | ISC
+  Lockfile path: node_modules/setprototypeof
+  Package: https://www.npmjs.com/package/setprototypeof/v/1.2.0
+  Archive: https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz
+  Integrity: sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==
 sha.js@2.4.12 | runtime | (MIT AND BSD-3-Clause)
   Lockfile path: node_modules/sha.js
   Package: https://www.npmjs.com/package/sha.js/v/2.4.12
@@ -4025,22 +4320,22 @@ shiki@2.5.0 | development | MIT
   Package: https://www.npmjs.com/package/shiki/v/2.5.0
   Archive: https://registry.npmjs.org/shiki/-/shiki-2.5.0.tgz
   Integrity: sha512-mI//trrsaiCIPsja5CNfsyNOqgAZUb6VpJA+340toL42UpzQlXpwRV9nch69X6gaUxrr9kaOOa6e3y3uAkGFxQ==
-side-channel@1.1.1 | development | MIT
+side-channel@1.1.1 | runtime | MIT
   Lockfile path: node_modules/side-channel
   Package: https://www.npmjs.com/package/side-channel/v/1.1.1
   Archive: https://registry.npmjs.org/side-channel/-/side-channel-1.1.1.tgz
   Integrity: sha512-6x6dK6zJdpTzF4sQeNYxwtvBzf6Eg4GtlesS94HOvTudUeyK2WXAaIfmDgsyslYrRBeFIlsi54AYsFGUuhmvrQ==
-side-channel-list@1.0.1 | development | MIT
+side-channel-list@1.0.1 | runtime | MIT
   Lockfile path: node_modules/side-channel-list
   Package: https://www.npmjs.com/package/side-channel-list/v/1.0.1
   Archive: https://registry.npmjs.org/side-channel-list/-/side-channel-list-1.0.1.tgz
   Integrity: sha512-mjn/0bi/oUURjc5Xl7IaWi/OJJJumuoJFQJfDDyO46+hBWsfaVM65TBHq2eoZBhzl9EchxOijpkbRC8SVBQU0w==
-side-channel-map@1.0.1 | development | MIT
+side-channel-map@1.0.1 | runtime | MIT
   Lockfile path: node_modules/side-channel-map
   Package: https://www.npmjs.com/package/side-channel-map/v/1.0.1
   Archive: https://registry.npmjs.org/side-channel-map/-/side-channel-map-1.0.1.tgz
   Integrity: sha512-VCjCNfgMsby3tTdo02nbjtM/ewra6jPHmpThenkTYh8pG9ucZ/1P8So4u4FGBek/BjpOVsDCMoLA/iuBKIFXRA==
-side-channel-weakmap@1.0.2 | development | MIT
+side-channel-weakmap@1.0.2 | runtime | MIT
   Lockfile path: node_modules/side-channel-weakmap
   Package: https://www.npmjs.com/package/side-channel-weakmap/v/1.0.2
   Archive: https://registry.npmjs.org/side-channel-weakmap/-/side-channel-weakmap-1.0.2.tgz
@@ -4130,6 +4425,11 @@ split2@4.2.0 | runtime | ISC
   Package: https://www.npmjs.com/package/split2/v/4.2.0
   Archive: https://registry.npmjs.org/split2/-/split2-4.2.0.tgz
   Integrity: sha512-UcjcJOWknrNkF6PLX83qcHM6KHgVKNkV62Y8a5uYDVv9ydGQVwAHMKqHdJje1VTWpljG0WYpCDhrCdAOYH4TWg==
+statuses@2.0.2 | runtime | MIT
+  Lockfile path: node_modules/statuses
+  Package: https://www.npmjs.com/package/statuses/v/2.0.2
+  Archive: https://registry.npmjs.org/statuses/-/statuses-2.0.2.tgz
+  Integrity: sha512-DvEy55V3DB7uknRo+4iOGT5fP1slR8wQohVdknigZPMpMstaKJQWhwiYBACJE3Ul2pTnATihhBYnRhZQHGBiRw==
 std-env@4.2.0 | development | MIT
   Lockfile path: node_modules/std-env
   Package: https://www.npmjs.com/package/std-env/v/4.2.0
@@ -4260,6 +4560,11 @@ to-buffer@1.2.2 | runtime | MIT
   Package: https://www.npmjs.com/package/to-buffer/v/1.2.2
   Archive: https://registry.npmjs.org/to-buffer/-/to-buffer-1.2.2.tgz
   Integrity: sha512-db0E3UJjcFhpDhAF4tLo03oli3pwl3dbnzXOUIlRKrp+ldk/VUxzpWYZENsw2SZiuBjHAk7DfB0VU7NKdpb6sw==
+toidentifier@1.0.1 | runtime | MIT
+  Lockfile path: node_modules/toidentifier
+  Package: https://www.npmjs.com/package/toidentifier/v/1.0.1
+  Archive: https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.1.tgz
+  Integrity: sha512-o5sSPKEkg/DIQNmH43V0/uerLrpzVedkUh8tGNvaeXpfpuwjKenlSox/2O/BTlZUtEe+JG7s5YhEz608PlAHRA==
 tokenx@1.3.0 | runtime | MIT
   Lockfile path: node_modules/tokenx
   Package: https://www.npmjs.com/package/tokenx/v/1.3.0
@@ -4315,6 +4620,16 @@ type-fest@3.13.1 | development | (MIT OR CC0-1.0)
   Package: https://www.npmjs.com/package/type-fest/v/3.13.1
   Archive: https://registry.npmjs.org/type-fest/-/type-fest-3.13.1.tgz
   Integrity: sha512-tLq3bSNx+xSpwvAJnzrK0Ep5CLNWjvFTOp71URMaAEWBfRb9nnJiBoUe0tF8bI4ZFO3omgBR6NvnbzVUT3Ly4g==
+type-is@2.1.0 | runtime | MIT
+  Lockfile path: node_modules/type-is
+  Package: https://www.npmjs.com/package/type-is/v/2.1.0
+  Archive: https://registry.npmjs.org/type-is/-/type-is-2.1.0.tgz
+  Integrity: sha512-faYHw0anBbc/kWF3zFTEnxSFOAGUX9GFbOBthvDdLsIlEoWOFOtS0zgCiQYwIskL9iGXZL3kAXD8OoZ4GmMATA==
+content-type@2.1.0 | runtime | MIT
+  Lockfile path: node_modules/type-is/node_modules/content-type
+  Package: https://www.npmjs.com/package/content-type/v/2.1.0
+  Archive: https://registry.npmjs.org/content-type/-/content-type-2.1.0.tgz
+  Integrity: sha512-mj7UPXE0jaqaOsukNZRUEfEi2AcL7C/vwmwcHV0O97eO1E1pxBZuyjlZrx5seTaNBg1U6+o35wpa35Qfcc+7ag==
 typed-array-buffer@1.0.3 | runtime | MIT
   Lockfile path: node_modules/typed-array-buffer
   Package: https://www.npmjs.com/package/typed-array-buffer/v/1.0.3
@@ -4330,6 +4645,11 @@ typed-rest-client@2.3.1 | development | MIT
   Package: https://www.npmjs.com/package/typed-rest-client/v/2.3.1
   Archive: https://registry.npmjs.org/typed-rest-client/-/typed-rest-client-2.3.1.tgz
   Integrity: sha512-k4kX5Up6qA68D0Cby2AK+6+vM5k3qTxe+/3FqhnHRExjY5cfbOnzjQZbP/LXleF8hVoDvDqxlgk9KK83HoBZlQ==
+typedarray@0.0.6 | runtime, optional | MIT
+  Lockfile path: node_modules/typedarray
+  Package: https://www.npmjs.com/package/typedarray/v/0.0.6
+  Archive: https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz
+  Integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==
 typescript@7.0.2 | development | Apache-2.0
   Lockfile path: node_modules/typescript
   Package: https://www.npmjs.com/package/typescript/v/7.0.2
@@ -4400,6 +4720,11 @@ universal-user-agent@6.0.1 | development | ISC
   Package: https://www.npmjs.com/package/universal-user-agent/v/6.0.1
   Archive: https://registry.npmjs.org/universal-user-agent/-/universal-user-agent-6.0.1.tgz
   Integrity: sha512-yCzhz6FN2wU1NiiQRogkTQszlQSlpWaw8SvVegAc+bDxbzHgh1vX8uIe8OYyMH6DwH+sdTJsgMl36+mSMdRJIQ==
+unpipe@1.0.0 | runtime | MIT
+  Lockfile path: node_modules/unpipe
+  Package: https://www.npmjs.com/package/unpipe/v/1.0.0
+  Archive: https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz
+  Integrity: sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==
 update-browserslist-db@1.3.4 | development | MIT
   Lockfile path: node_modules/update-browserslist-db
   Package: https://www.npmjs.com/package/update-browserslist-db/v/1.3.4
@@ -4415,6 +4740,11 @@ validate-npm-package-license@3.0.4 | development | Apache-2.0
   Package: https://www.npmjs.com/package/validate-npm-package-license/v/3.0.4
   Archive: https://registry.npmjs.org/validate-npm-package-license/-/validate-npm-package-license-3.0.4.tgz
   Integrity: sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==
+vary@1.1.2 | runtime | MIT
+  Lockfile path: node_modules/vary
+  Package: https://www.npmjs.com/package/vary/v/1.1.2
+  Archive: https://registry.npmjs.org/vary/-/vary-1.1.2.tgz
+  Integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
 verkit@0.5.0 | development | MIT
   Lockfile path: node_modules/verkit
   Package: https://www.npmjs.com/package/verkit/v/0.5.0
@@ -4815,6 +5145,11 @@ zod@4.6.6 | runtime | MIT
   Package: https://www.npmjs.com/package/zod/v/4.6.6
   Archive: https://registry.npmjs.org/zod/-/zod-4.6.6.tgz
   Integrity: sha512-4UmzQUF5fxvfcYHlbjBmejU+w+hbDnWFx4aS8kBx7nPBHcO2SqPbpAG8snbdg+Xse4pRefR98hgjFgIMCI/UhA==
+zod-to-json-schema@3.25.2 | runtime | ISC
+  Lockfile path: node_modules/zod-to-json-schema
+  Package: https://www.npmjs.com/package/zod-to-json-schema/v/3.25.2
+  Archive: https://registry.npmjs.org/zod-to-json-schema/-/zod-to-json-schema-3.25.2.tgz
+  Integrity: sha512-O/PgfnpT1xKSDeQYSCfRI5Gy3hPf91mKVDuYLUHZJMiDFptvP41MSnWofm8dnCm0256ZNfZIM7DSzuSMAFnjHA==
 zwitch@2.0.4 | development | MIT
   Lockfile path: node_modules/zwitch
   Package: https://www.npmjs.com/package/zwitch/v/2.0.4

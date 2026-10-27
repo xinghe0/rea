@@ -24,6 +24,8 @@ export const TOOL_FAMILY_IDS = [
   "javascript-runtime",
   "application",
   "session",
+  "mobile-game",
+  "scrcpy",
 ] as const;
 
 export type ToolFamilyId = (typeof TOOL_FAMILY_IDS)[number];

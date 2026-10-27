@@ -67,3 +67,5 @@ inventory, runtime package identities,
 license declarations, archive URLs/integrity, runtime dependency fingerprint,
 and preserved reference digests. It does not verify legal completeness or
 replace inspection of original upstream notices.
+
+The mobile-security fork adds `scrcpy-mcp@0.2.1` and its locked dependencies. Their release archives were fetched from lockfile URLs, checked against lockfile integrity and package name/version, and their license/NOTICE texts appended to `npm-runtime-notices.txt`. `parse-cache-control@1.0.1` has no standalone license document or lockfile license declaration: its package metadata and README license section are retained as an explicitly identified upstream gap. This is not a recovered copyright notice.

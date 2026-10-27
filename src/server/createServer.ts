@@ -1,3 +1,5 @@
+import { GameAnalysisService } from "../application/mobileGame/GameAnalysisService.js";
+import { GameResourceProvider } from "../mobileGame/GameResourceProvider.js";
 import { AnalysisSettings } from "../application/AnalysisSettings.js";
 import { registerAnalysisSettingsTools } from "./registerAnalysisSettingsTools.js";
 import type { DevicetreeService } from "../application/binaryDiagnostics/DevicetreeService.js";
@@ -166,6 +168,11 @@ import { registerPcapTools } from "./registerPcapTools.js";
 import { registerFlutterTools } from "./registerFlutterTools.js";
 import { registerJebTools } from "./registerJebTools.js";
 import { registerAdbTools } from "./registerAdbTools.js";
+import { registerScrcpyTools } from "./registerScrcpyTools.js";
+import { registerMobileGameTools } from "./registerMobileGameTools.js";
+import { MobileGameAssessmentService } from "../application/mobileGame/MobileGameAssessmentService.js";
+import { ScrcpyObservationService } from "../application/scrcpy/ScrcpyObservationService.js";
+import { createScrcpyMcpProvider } from "../composition/scrcpy.js";
 import { AndroidAnalysisService } from "../application/android/AndroidAnalysisService.js";
 import { JebAnalysisService } from "../application/jeb/JebAnalysisService.js";
 import type { AndroidAnalysisPort } from "../application/android/AndroidAnalysisPort.js";
@@ -576,9 +583,18 @@ export const createServer = (
   const cutter = new CutterBridgeService(
     new CutterBridgeClient(providerEnvironment),
   );
+  const gameResources = new GameResourceProvider();
+  const gameAnalysis = new GameAnalysisService(gameResources);
+  const scrcpyService = new ScrcpyObservationService(() => {
+    const scrcpy = createScrcpyMcpProvider(environment);
+    if (!scrcpy.ok) throw scrcpy.error;
+    return scrcpy.value.provider;
+  });
   let providerClose: Promise<void> | undefined;
   const closeProviders = (): Promise<void> => {
     providerClose ??= Promise.allSettled([
+      scrcpyService.close(),
+      gameAnalysis.close(),
       android.close(),
       cutter.close(),
       fridaInstrumentation.closeAll(),
@@ -826,6 +842,28 @@ export const createServer = (
   registerAdbTools(
     server,
     new AdbDeviceAnalysisService(adbDevice),
+    toolLogger,
+    recordEvidence,
+    analysisAdmission,
+  );
+  registerScrcpyTools(
+    server,
+    scrcpyService,
+    toolLogger,
+    recordEvidence,
+    analysisAdmission,
+  );
+  registerMobileGameTools(
+    server,
+    new MobileGameAssessmentService(
+      apkSignature,
+      il2cppMetadata,
+      new AndroidAnalysisService(android),
+      new PcapAnalysisService(pcap),
+      gameResources,
+      new AdbDeviceAnalysisService(adbDevice),
+    ),
+    gameAnalysis,
     toolLogger,
     recordEvidence,
     analysisAdmission,

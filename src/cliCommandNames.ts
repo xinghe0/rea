@@ -177,6 +177,14 @@ export const CLI_COMMANDS = Object.freeze({
   projectAndroidApplicationGraph: "project-android-application-graph",
   projectAppleApplicationGraph: "project-apple-application-graph",
   projectHarmonyApplicationGraph: "project-harmony-application-graph",
+  assessMobileGame: "assess-mobile-game",
+  convertGameResources: "convert-game-resources",
+  checkGameCase: "check-game-case",
+  reportGameCase: "report-game-case",
+  decodeGameProtocol: "decode-game-protocol",
+  inspectScrcpyClient: "inspect-scrcpy-client",
+  observeScrcpyDevice: "observe-scrcpy-device",
+  controlScrcpyDevice: "control-scrcpy-device",
 });
 
 /** Ordered primary CLI inventory; aliases are intentionally excluded. */

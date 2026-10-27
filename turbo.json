@@ -193,7 +193,8 @@
         "scripts/generate-skill-metadata.mjs",
         "scripts/lib/generated-file.mjs",
         "scripts/lib/verifier-source-loader.mjs",
-        ".agents/skills/reverse-engineer-anything/**"
+        ".agents/skills/reverse-engineer-anything/**",
+        "internal/skills/game-security-assessment/**"
       ],
       "outputs": ["skills/**"]
     },

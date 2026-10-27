@@ -77,3 +77,8 @@ Thumbs.db
 website/_site/
 # Temporary translation output prepared before replacing the complete site.
 website/.i18n-*/
+
+# Internal mobile-security helper caches and private case outputs
+tools/game-sec/__pycache__/
+tools/game-sec/tests/__pycache__/
+.rea-mobile-cases/

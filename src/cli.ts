@@ -1,3 +1,4 @@
+import { registerGameAnalysisCommands } from "./cli/gameAnalysisCommands.js";
 import { registerGpuCommands } from "./cli/gpuCommands.js";
 import { registerNativeFunctionMatchingCommands } from "./cli/nativeFunctionMatchingCommands.js";
 import { registerCaptureCommands } from "./cli/captureCommands.js";
@@ -37,6 +38,8 @@ import { registerApktoolCommands } from "./cli/apktoolCommands.js";
 import { registerPcapCommands } from "./cli/pcapCommands.js";
 import { registerFlutterCommands } from "./cli/flutterCommands.js";
 import { registerJebCommands } from "./cli/jebCommands.js";
+import { registerScrcpyCommands } from "./cli/scrcpyCommands.js";
+import { registerMobileGameCommands } from "./cli/mobileGameCommands.js";
 import { registerAdbCommands } from "./cli/adbCommands.js";
 import { registerEvidenceCommands } from "./cliEvidenceCommands.js";
 import { registerEnvironmentCommands } from "./cli/environmentCommands.js";
@@ -143,6 +146,9 @@ export const createCli = (
   registerPcapCommands(cli, logger, environment);
   registerFlutterCommands(cli, logger);
   registerJebCommands(cli, logger, environment);
+  registerMobileGameCommands(cli, logger);
+  registerGameAnalysisCommands(cli);
+  registerScrcpyCommands(cli, environment);
   registerAdbCommands(cli, logger, environment);
   registerFirmwareCommands(cli, logger, environment);
   registerBinaryDiagnosticsCommands(cli, logger, environment);

@@ -41,6 +41,8 @@ import { WEB_NETWORK_CAPTURE_TOOL_CONTRACTS } from "./webNetworkCaptureToolContr
 import { JAVASCRIPT_RECOVERY_TOOL_CONTRACTS } from "./javascript/javascriptRecoveryToolContracts.js";
 import { OFFICIAL_TOOL_CONTRACTS } from "./officialToolContracts.js";
 import { ENHANCED_TOOL_CONTRACTS } from "./enhancedToolContracts.js";
+import { MOBILE_GAME_TOOL_CONTRACTS } from "./mobileGameTools.js";
+import { SCRCPY_TOOL_CONTRACTS } from "./scrcpy/scrcpyToolContracts.js";
 import { SESSION_TOOL_CONTRACTS } from "./sessionToolContracts.js";
 import { FRIDA_TOOL_CONTRACTS } from "./fridaToolContracts.js";
 import { TOOL_CONTRACTS } from "./toolContracts.js";
@@ -163,6 +165,16 @@ export const TOOL_FAMILY_DEFINITIONS = [
     ],
   },
   { id: "session", surface: "session", contracts: SESSION_TOOL_CONTRACTS },
+  {
+    id: "mobile-game",
+    surface: "application",
+    contracts: MOBILE_GAME_TOOL_CONTRACTS,
+  },
+  {
+    id: "scrcpy",
+    surface: "scrcpy-provider",
+    contracts: SCRCPY_TOOL_CONTRACTS,
+  },
 ] as const satisfies readonly ToolFamilyDefinition[];
 
 const familyByTool = new Map<string, ToolFamilyId>();

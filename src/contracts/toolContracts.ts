@@ -1,3 +1,4 @@
+import { MOBILE_GAME_TOOL_CONTRACTS } from "./mobileGameTools.js";
 import { ANALYSIS_SETTINGS_TOOL_CONTRACTS } from "./analysisSettingsContracts.js";
 import { GPU_TOOL_CONTRACTS } from "./gpu/gpuToolContracts.js";
 import { CAPTURE_TOOL_CONTRACTS } from "./captures/captureToolContracts.js";
@@ -43,6 +44,7 @@ import { GDB_TOOL_CONTRACTS } from "./gdbToolContracts.js";
 import { RIZIN_DEBUG_TOOL_CONTRACTS } from "./rizinDebugToolContracts.js";
 import { FRIDA_TOOL_CONTRACTS } from "./fridaToolContracts.js";
 import { ENVIRONMENT_TOOL_CONTRACTS } from "./environmentToolContracts.js";
+import { SCRCPY_TOOL_CONTRACTS } from "./scrcpy/scrcpyToolContracts.js";
 
 /** Complete ordered public inventory used by registration and verification. */
 export const TOOL_CONTRACTS = [
@@ -80,6 +82,7 @@ export const TOOL_CONTRACTS = [
   ...ELECTRON_TOOL_CONTRACTS,
   ...JAVASCRIPT_RUNTIME_OBSERVATION_TOOL_CONTRACTS,
   ...APPLICATION_TOOL_CONTRACTS,
+  ...MOBILE_GAME_TOOL_CONTRACTS,
   ...WEB_SCRIPT_TOOL_CONTRACTS,
   ...WEB_RUNTIME_TOOL_CONTRACTS,
   ...WEB_NETWORK_CAPTURE_TOOL_CONTRACTS,
@@ -91,6 +94,7 @@ export const TOOL_CONTRACTS = [
   ...GDB_TOOL_CONTRACTS,
   ...RIZIN_DEBUG_TOOL_CONTRACTS,
   ...FRIDA_TOOL_CONTRACTS,
+  ...SCRCPY_TOOL_CONTRACTS,
 ] as const;
 
 /** Resolve a public contract by name while retaining its exact schema types. */

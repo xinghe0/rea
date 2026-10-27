@@ -28,6 +28,7 @@ export const TOOL_KINDS = [
   "pcap-provider",
   "application",
   "session",
+  "scrcpy-provider",
 ] as const;
 
 /** Adapter family responsible for implementing a public MCP tool. */

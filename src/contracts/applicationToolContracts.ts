@@ -1,3 +1,7 @@
+import {
+  mobileGameAssessmentInputSchema,
+  mobileGameAssessmentResultSchema,
+} from "../domain/mobileGame/mobileGameAssessment.js";
 import { applicationInventoryProjectionInputSchema } from "../domain/mobileApplicationGraphProjection.js";
 import { z } from "zod";
 import {
@@ -69,6 +73,25 @@ const retained = (evidence_id: string) => ({
 
 /** Provider-neutral graph workflow contracts shared by MCP and CLI adapters. */
 export const APPLICATION_TOOL_CONTRACTS = [
+  {
+    name: "assess_mobile_game",
+    ...toolContractMetadata("assess_mobile_game"),
+    description:
+      "Run the REA mobile-game static/passive assessment workflow. Creates a caller-selected case directory, records APK identity, scans manifest/resources/sensitive-value candidates, and preserves dynamic, mutation, repackaging and protection-recovery stages as not-tested.",
+    kind: "application",
+    inputSchema: mobileGameAssessmentInputSchema,
+    outputSchema: evidenceResultOf(mobileGameAssessmentResultSchema),
+    examples: [
+      {
+        title: "Assess an authorized game APK",
+        input: {
+          apk: "/tmp/game.apk",
+          game: "sample-game",
+          case_root: "/tmp/cases",
+        },
+      },
+    ],
+  },
   {
     name: "trace_application_feature",
     ...toolContractMetadata("trace_application_feature"),

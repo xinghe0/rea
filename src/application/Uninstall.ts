@@ -1291,9 +1291,10 @@ const removeManagedSkill = async (
 /** Directories setup creates for managed files, deepest first, then the root. */
 const MANAGED_SKILL_DIRECTORIES = [
   ...new Set(
-    MANAGED_SKILL_FILES.map((relativePath) =>
-      relativePath.split("/").slice(0, -1).join("/"),
-    ).filter((directory) => directory.length > 0),
+    MANAGED_SKILL_FILES.flatMap((relativePath) => {
+      const parts = relativePath.split("/").slice(0, -1);
+      return parts.map((_, index) => parts.slice(0, index + 1).join("/"));
+    }),
   ),
 ].sort((left, right) => right.split("/").length - left.split("/").length);
 
